@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container"></div>
+    <div id="toolBar">
+      <h2>search..</h2>
+      <input type="text" name="search" placeholder="search" />
+      <select name="selectSearch" id="selectSearch">
+        <option value="1">First Name</option>
+        <option value="2">Last Name</option>
+        <option value="3">Age</option>
+        <option value="4">Gender</option>
+        <option value="5">Capsule</option>
+        <option value="6">City</option>
+        <option value="7">Hobby</option>
+      </select>
+      <button type="button" onClick="searchTableHandler()">Search</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Capsule</th>
+          <th>City</th>
+          <th>Hobby</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id="usersTable"></tbody>
+    </table>
+    <div class="messageState"></div>
+    <script src="index.js"></script>
+    <script>
+      // createTable();
+    </script>
+  </body>
+</html>

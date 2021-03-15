@@ -1,0 +1,18 @@
+.button {
+  border-radius: 15px;
+  color: white;
+}
+
+td {
+  width: 60px;
+  white-space: nowrap;
+}
+input {
+  width: 60px;
+}
+
+.messageState {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
